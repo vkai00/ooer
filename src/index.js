@@ -43,11 +43,11 @@ async function getNextActivity () {
     case 1: {
       let totalGuilds = (await shardingManager.fetchClientValues('guilds.size')).reduce((prev, val) => prev + val, 0)
       totalGuilds = Util.toHumanReadableNumber(totalGuilds)
-      return { text: `${totalGuilds} servers`, type: 'WATCHING' }
+      return { text: `Shea sucks!`, type: 'WATCHING' }
     } case 2:
-      return { text: `${totalUsers} users`, type: 'LISTENING' }
+      return { text: `Omaar sucks!`, type: 'LISTENING' }
     case 3:
-      return { text: '!rover', type: 'LISTENING' }
+      return { text: 'Crow sucks!', type: 'LISTENING' }
   }
 }
 

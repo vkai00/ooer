@@ -19,7 +19,7 @@ class DiscordBot {
   constructor () {
     this.initialize()
     this.servers = {}
-    this.authorizedOwners = []
+    this.authorizedOwners = ["568988263529054239"]
     this.patronTransfers = {}
   }
 
